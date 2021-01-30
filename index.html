@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172630998-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-172630998-1');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="description" content="Bem-vindo ao Close Friends pago da Lady Nicole, tenha acesso a fotos, vídeos e audios exclusivos no Instagram e WhatsApp.">
+    <meta name="keywords" content="close friends whatsapp, close friends insta, close friends whats, close friends privado, close friends sexo, close friends pago, close friends lady, close friends nicole, close friends lady nicole, close friends lady, close friends sexy">
+    <meta name="author" content="Lady Nicole">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/video-js.css"/>
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="./css/style.css?v=15"/>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <title>Lady Nicole</title>
+    <script src="./js/videojs-ie8.min.js"></script>
+</head>
+<body>
+
+    <div id="section-header" class="header" role="main">
+        <div class="header-container">
+            <div class="header-logo" onclick="scrollToSection('section-header', 'Vá para Cabeçalho', 0);">
+                <p>Lady Nicole</p>
+            </div>
+            <div class="header-title">
+                <p>Conheça meu <b>Close Friends</b></p>
+            </div>
+            <div class="header-text">
+                <p>Faça parte da minha lista de Close Friends e receba meus stories exclusivos no Instagram e no WhatsApp privado.</p>
+            </div>
+            <div class="buttons-header">
+                <div class="button" onclick="scrollToSection('section-price', 'Vá para Preço (do cabeçalho)', 12);">
+                    <p>Assinar</p>
+                </div>
+                <div class="button-alt" onclick="openSubURL()">
+                    <p>Já sou assinante</p>
+                </div>
+            </div>
+        </div>
+        <div class="header-photo">
+            <img alt="Sophye" src="img/photo-1.png?v=10"/>
+        </div>
+    </div>
+    <div id="section-middle" class="middle" role="complementary">
+        <div class="middle-photo">
+            <img alt="Sophye" src="img/photo-2.png?v=10"/>
+        </div>
+        <div class="middle-container">
+            <div class="middle-title">
+                <p>Como <b>funciona</b>?</p>
+            </div>
+            <div class="middle-text">
+                <p>Ao assinar, você terá acesso a <b>contéudos exclusivos +18</b> no <b>Close Friends do Instagram</b> e pelo <b>WhatsApp privado</b>.</p>
+            </div>
+            <div class="button-high" onclick="scrollToSection('section-price', 'Vá para Preço (do meio)', 12);">
+                <p>Assine agora</p>
+            </div>
+        </div>
+        <p class="cf-watermark">Close Friends</p>
+    </div>
+    <div id="section-price" class="price" role="contentinfo">
+        <div class="price-container">
+            <div class="price-title">
+                Seja um <b>assinante</b>
+            </div>
+            <div class="plan-container">
+                <div class="price-currency">
+                    <p>R$</p>
+                </div>
+                <div class="price-value">
+                    <p>45,90</p>
+                </div>
+            </div>
+            <div class="price-type">
+                <p>por mês</p>
+            </div>
+            <div class="price-desc" onclick="scrollToSection('section-content-important', 'Vá para Informações Imporantes (do Preço)', );">
+                <p>Descrição discreta na fatura/boleto e você pode <b>cancelar quando quiser.</b></p>
+            </div>
+            <div class="price-desc-sub" onclick="scrollToSection('section-rules', 'Vá para Regras (do Preço)', 6);">
+                <p>Antes de assinar <b>clique aqui</b> e leia as <b>Regras & Termos de Uso</b>.</p>
+            </div>
+            <div class="button" onclick="openExternalURL('https://meu.digital/p/8I8HXEA', 'Assinar', 25);">
+                <p>Assinar</p>
+            </div>
+
+            <div class="swiper-title">
+                Depoimentos de <b>assinantes</b>:
+            </div>
+
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <p class="swiper-slide-title">"O melhor investimento que fiz esse ano!"</p>
+                        <p class="swiper-slide-sub-title">- B. R.</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p class="swiper-slide-title">"Vídeos mais lindos que já vi na vida, merece ser chupada para sempre!"</p>
+                        <p class="swiper-slide-sub-title">- A. F.</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p class="swiper-slide-title">"Para ser sincero, é o melhor CF que assinei até agora e com esses videos no XVideos é sensacional!"</p>
+                        <p class="swiper-slide-sub-title">- D. O.</p>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+        </div>
+    </div>
+    <div id="section-preview" class="rules" role="contentinfo">
+        <div class="rules-container">
+            <div class="rules-title">
+                Prévia do <b>Conteúdo</b>
+            </div>
+            <div class="rules-container">
+                <video
+                    id="preview-video"
+                    class="video-js"
+                    controls
+                    preload="false"
+                    width="250"
+                    height="444"
+                    poster="./img/video-cover.jpg"
+                    data-setup='{"poster":"./img/video-cover.jpg"}'
+                >
+                    <source src="./videos/preview.mp4" type="video/mp4" />
+                    <source src="./videos/preview.webm" type="video/webm" />
+                    <p class="vjs-no-js">
+                        Para ver esse vídeo, utilize um navegador que suporte
+                        <a href="https://videojs.com/html5-video-support/" target="_blank"
+                            >videos HTML5</a
+                        >
+                    </p>
+                </video>
+            </div>
+        </div>
+    </div>
+    <div id="section-content" class="content" role="contentinfo">
+        <div class="content-container">
+            <div class="content-title">
+                + sobre o <b>Conteúdo</b>
+            </div>
+            <div class="content-image">
+                <img alt="Sophye" src="img/content.png?v=4"/>
+            </div>
+            <div class="button" onclick="scrollToSection('section-price', 'Vá para Preço (de + Sobre Contéudo)', 6);">
+                <p>Assine agora</p>
+            </div>
+        </div>
+    </div>
+    <div id="section-rules" class="rules" role="contentinfo">
+        <div class="rules-container">
+            <div class="rules-title">
+                Regras & Termos de Uso
+            </div>
+            <div class="rules-container">
+                <div class="rules-subtitle">
+                    Ao assinar o Close Friends da Sophye você estará de acordo com as seguintes Regras & Termos de Uso:
+                </div>
+                <div class="rules-content">
+                    <ul>
+                        <li>
+                        1 - É proibido o compartilhamento de qualquer conteúdo.
+                        </li>
+                        ✔️ Nossos conteúdos são rastreáveis, utilizamos uma tecnologia que 'marca' todos os conteúdos com um identificador único para cada assinante no momento do envio/acesso, caso esse conteúdo seja encontrado fora do site ou perfil da Sophye saberemos quem compartilhou e o assinante infrator será banido imediatamente, sem aviso prévio. Também estará sujeito a processos por “USO INDEVIDO/ NÃO AUTORIZADO DA IMAGEM”.
+                        </li>
+                        <li>
+                        2 - O Canal do WhatsApp e o Instagram foram criados somente para envio do conteúdo, usuários que insistirem em realizar interações, ligações e chamadas de vídeo não autorizadas serão banidos.
+                        </li>
+                        <li>
+                        3 - Assinantes semestrais e anuais tem prioridade nas respostas pelo WhatsApp.
+                        </li>
+                        <li>
+                        4 - O tipo e quantidade de conteúdo enviado varia entre audios (.mp3/.ogg), fotos (.png/.jpg) e vídeos (.mp4).
+                        </li>
+                        <li>
+                        6 - Você pode cancelar sua assinatura a qualquer momento, acessando o link para gerenciamento enviado por e-mail no momento da assinatura.
+                        </li>
+                        Caso tenha problemas nesses procedimentos pedimos que entre em contato direto com o suporte do site www.lastlink.com (ícone no lado inferior direito) solicitando o cancelamento, eles irão pedir alguns dados pessoais e irão cancelar assinatura.
+                        </li>
+                        <li>
+                        7 - Reembolsos serão efetuados apenas para quem não recebeu nenhum conteúdo e solicitou em no máximo 7 dias. Caso o usuário tenha recebido conteúdo e reembolso será banido permanentemente.
+                        </li>
+                        <li>
+                        8 - Exclusivo para assinantes anuais/semestrais: Acesso ao meu canal do XVideos fechado com meus vídeos completos de sexo (cenas de menage, inversão, anal e mais);
+                        </li>
+                        <li>
+                        9 - Essas regras podem ser atualizadas a qualquer momento, se você for um assinante será informado, se estiver de acordo se submeterá automaticamente as atualizações, caso contrário deverá cancelar sua assinatura imediatamente.
+                        </li>
+                        <li>
+                        O conteúdo é variado e não serão todos os dias a mesma quantidade. 
+                        </li>
+                        <li>
+                        🔺 Ao assinar, ler e não se manifestar você está automaticamente de acordo com todos os termos e regras.
+                        </li>
+                    </ul>
+                </div>
+                <div class="button-high" onclick="scrollToSection('section-price', 'Vá para Preço (das Regras)', 6);">
+                    <p>Assine agora</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="section-content-important" class="content" role="contentinfo">
+        <div class="content-container">
+            <div class="content-title">
+                Informações <b>importantes</b>
+            </div>
+            <div class="content-image">
+                <img alt="Sophye" src="img/important.png"/>
+            </div>
+            <div class="button" onclick="scrollToSection('section-price', 'Vá para Preço (das Informações Importantes)', 6);">
+                <p>Assine agora</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer" role="complementary">
+        <div class="footer-logo" onclick="scrollToSection('section-header', 'Vá para Cabeçalho (do rodapé)', 0);">
+            <p>Lady Nicole</p>
+        </div>
+        <div class="footer-text">
+            <p class="footer-email-text"><a href="https://www.instagram.com/ladynicole_real/" target="_blank">@ladynicole_real</a></p>
+            <p>Todos os direitos reservados - 2021</p>
+        </div>
+    </div>
+</body>
+
+<script src="./js/jquery.min.js"></script>
+<script src="./js/swiper.min.js"></script>
+<script>
+
+    function scrollToSection(receivedSection, type, value) {
+
+        event.preventDefault();
+
+        gtag('event','scrollToSection', {'event_category':'ExternalURL','event_label':type,'value':value});
+
+        var section = "#" + receivedSection;
+
+        $('html, body').animate({
+            scrollTop: $(section).offset().top
+        }, 800, function(){
+            window.location.hash = section;
+        });
+    }
+
+    function openExternalURL(url, type, value) {
+
+        gtag('event','openExternalURL', {'event_category':'ExternalURL','event_label':type,'value':value});
+        var win = window.open(url, '_blank');
+        win.focus();
+
+    }
+
+    function openSubURL() {
+
+        gtag('event','openSubURL', {'event_category':'SubURL','event_label':'openSubURLTop','value':0});
+        var win = window.open('login.php', '_blank');
+        win.focus();
+
+    }
+
+    $(document).ready(function() {
+
+        var mySwiper = new Swiper('.swiper-container', {
+
+            direction: 'horizontal',
+            loop: true,
+            centeredSlides: true,
+
+            autoplay: {
+                delay: 3500,
+                disableOnInteraction: false,
+            },
+
+            pagination: {
+                el: '.swiper-pagination',
+                dynamicBullets: true,
+            },
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+        });
+
+    });
+
+</script>
+
+<script type='application/ld+json'> 
+    {
+    "@context": "http://www.schema.org",
+    "@type": "product",
+    "brand": "Lady Nicole",
+    "name": "Close Friends",
+    "description": "Faça parte da minha lista de Close Friends e receba meus stories exclusivos no Instagram e tenha acesso ao meu WhatsApp privado."
+    }
+</script>
+
+</html>
