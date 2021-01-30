@@ -522,7 +522,7 @@ video[poster]{
     }
 
     .header-logo {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .header-text {
@@ -606,15 +606,15 @@ video[poster]{
 @media (max-width: 500px) 
 {
     .header-logo {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .header-title {
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .header-text {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .button p {
