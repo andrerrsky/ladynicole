@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Cache-control" content="public">
+<meta http-equiv="Content-Language" content="pt-br">
+<title>Lady Nicole - Prévia do conteúdo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex" />
+<link rel="stylesheet" href="video-js.css" media="all"/>
+<script async src="videojs-ie8.min.js"></script>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+  background-color: #222;
+  color: white;
+}
+
+#section-preview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rules-title {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.link-text {
+  color: inherit;
+  text-decoration: inherit; 
+  text-align: center;
+}
+    
+</style>
+</head>
+<body>
+
+    <div id="section-preview" class="rules" role="contentinfo">
+        <div class="rules-container">
+            <div class="rules-title">
+                Prévia do <b>Conteúdo</b>
+            </div>
+            <div class="rules-container">
+                <video
+                    id="preview-video"
+                    class="video-js"
+                    controls
+                    autoplay="true"
+                    preload="true"
+                    width="270"
+                    height="450"
+                    poster="video-cover.jpg"
+                    data-setup='{"poster":"video-cover.jpg"}'
+                >
+                    <source src="preview.mp4" type="video/mp4" />
+                    <source src="preview.webm" type="video/webm" />
+                    <p class="vjs-no-js">
+                        Para ver esse vídeo, utilize um navegador que suporte videos HTML5.
+                    </p>
+                </video>
+            </div>
+            <div class="rules-title">
+                <a href="https://meu.digital/p/8I8HXEA" target="_blank" class="link-text"><b>Assine agora!</b></a>
+            </div>
+        </div>
+    </div>
+
+<script src="jquery.min.js"></script>
+
+</body>
+</html>
